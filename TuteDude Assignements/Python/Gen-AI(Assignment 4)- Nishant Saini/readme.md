@@ -115,6 +115,46 @@ Assignment-4-FileHandling/
 └── README.md
 ```
 
+
+## How to Run
+
+### Prerequisites
+
+- Python 3 installed on your system
+
+### Running the Programs
+
+1. Open a terminal in the project folder.
+
+2. Run any task file using:
+
+```bash
+python Task1.py
+```
+
+or
+
+```bash
+python Task2.py
+```
+
+or any other task file:
+
+```bash
+python Task3.py
+python Task4.py
+python Task5.py
+python Task6.py
+python Task7.py
+```
+
+### Notes
+
+- Task 1 creates `sales_data.txt`.
+- Task 3 appends additional sales records to `sales_data.txt`.
+- Task 5 creates `products.txt`.
+- Task 7 generates `discount_report.txt`.
+- Some tasks require user input through the terminal.
 ---
 
 ## Author
