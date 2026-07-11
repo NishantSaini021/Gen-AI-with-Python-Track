@@ -8,14 +8,14 @@ prices = {
     "Camera": 5000
 }
 discount = int(input("Enter Discount percentage: "))
-avg_dicount = []
+avg_discount = []
 with open("discount_report.txt", "w") as file:
     for product,price in prices.items():
         discounted_price = price - ((price * discount) / 100)
         file.write(f"{product}|{price}|{discounted_price}\n")
-        avg_dicount.append(discounted_price)
+        avg_discount.append(discounted_price)
     file.write(f"Total Items: {len(prices)}\n")
-    file.write(f"Average Discounted Price: {sum(avg_dicount)/len(avg_dicount)}\n"
+    file.write(f"Average Discounted Price: {sum(avg_discount)/len(avg_discount)}\n"
 )
 with open("discount_report.txt", "r") as file:
     data = file.read()
