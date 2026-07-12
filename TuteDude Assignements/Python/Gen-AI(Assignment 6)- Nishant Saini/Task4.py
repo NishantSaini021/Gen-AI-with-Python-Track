@@ -1,6 +1,4 @@
 # Task 4. File Reader with exception handling
-import os
-print(os.getcwd())
 
 name = input("Enter name of file you want to open: ")
 try:
