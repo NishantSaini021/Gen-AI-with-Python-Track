@@ -4,15 +4,17 @@ from abc import ABC,abstractmethod
 
 class Payment(ABC):
     @abstractmethod
-    def process_payment(amount):
+    def process_payment(self,amount):
         pass
+
 class CreditCardPayment(Payment):
-    def process_payment(amount):
-        print("Credit Card Payment")
+    def process_payment(self, amount):
+        print(f"Credit Card Payment: {amount}")
+
 class UPIPayment(Payment):
-    def process_payment(amount):
-        print("UPI Payment")
+    def process_payment(self, amount):
+        print(f"UPI Payment: {amount}")
 c = CreditCardPayment()
 u = UPIPayment()
-c.process_payment()
-u.process_payment()
+c.process_payment(5000)
+u.process_payment(10000)
