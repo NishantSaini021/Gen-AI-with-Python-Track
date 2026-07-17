@@ -31,3 +31,26 @@ age = today.year - dob.year
 if (today.month, today.day) < (dob.month, dob.day):
     age -= 1
 st.write(f"Your age is {age}")
+
+col1,col2 = st.columns(2)
+with col1:
+    st.header("Name")
+    v1 = st.write("s1")
+    v2 = st.write("s2")
+with col2:
+    st.header("City")
+    c1 = st.write("c1")
+    c2 = st.write("c2")
+
+st.image("https://docs.streamlit.io/logo.svg", width = 500)
+
+st.sidebar.text_input("Enter Something: ")
+st.sidebar.button("Enter")
+with st.expander("Show Names"):
+    st.write("""
+             1. One
+             2. Two
+             3. Three
+             4.Four
+             """)
+    
