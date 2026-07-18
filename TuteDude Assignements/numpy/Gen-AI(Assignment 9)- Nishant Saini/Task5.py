@@ -1,0 +1,10 @@
+# Task 5: Statistical Operations (Core Focus)
+import numpy as np
+marks = np.array([78, 85, 90, 66, 72, 88, 95, 60])
+print(np.mean(marks))
+print(np.median(marks))
+print(np.var(marks))
+print(np.std(marks))
+print(np.min(marks))
+print(np.max(marks))
+print(np.max(marks)-np.min(marks))

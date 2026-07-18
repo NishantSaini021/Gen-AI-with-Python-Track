@@ -1,0 +1,15 @@
+# Task 1. Creating NumPy arrays
+import numpy as np
+a = np.arange(1,11)
+print(a)
+b = np.arange(1,10)
+c = b.reshape(3,3)
+print(c)
+d = np.array([10,20,30,40,50])
+print(d)
+print(a.shape)
+print(c.shape)
+print(d.shape)
+print(a.dtype)
+print(c.dtype)
+print(d.dtype)
