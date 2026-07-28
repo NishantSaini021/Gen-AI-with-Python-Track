@@ -143,4 +143,4 @@ This repository serves as:
 
 **Nishant Saini**
 
-Learning • Building • Experimenting with AI 🚀
+Learning • Building • Experimenting with AI
